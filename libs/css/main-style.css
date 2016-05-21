@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 18, 2016, 10:14:16 AM
+    Author     : Kemar
+*/
+
+/*
+    NAVBAR ----------------------
+*/
+
+.brand-logo .red-text {
+    margin-left: 20px;
+    margin-bottom: 20px
+}
+
+.brand-logo img {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.navbar-fixed .nav-wrapper {
+    height: 65px;
+}
+
+
+
+.albums-title h2 {
+    font-family:Verdana, Geneva, sans-serif;
+    text-align: center;
+    color:whitesmoke;
+
+}
+.tv-show-title h2 {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.tabs-title h2 {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color:#ffffff;
+    
+}
+.main-content {
+    background-color: white;
+}
+
+.slider-portion {
+    background-color: white;
+    
+}
+
+
+.albums-portion {
+    background-color: black;
+    text-align: center;
+}
+
+.tv-shows-portion {
+    background-color: #00C853;
+    text-align: center;
+    
+}
+
+.tabs-portion {
+        background-color: #0089ec;
+}
+
+

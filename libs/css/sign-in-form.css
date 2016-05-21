@@ -1,0 +1,200 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 19, 2016, 1:54:48 AM
+    Author     : Kemar
+*/
+
+
+/*
+    NAVBAR ----------------------
+*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+
+.brand-logo{
+    margin-left: 10px;
+}
+
+.brand-logo-text{
+    margin-left: 80px;
+    font-size: 28px;
+}
+
+.brand-logo img {
+
+    margin-top: 10px;
+}
+
+
+
+
+
+*:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://lh5.googleusercontent.com/XXyGSVJrEYkLb4SjYkhtUBYt43YzRN9c2MRuTOwdlaDYJNqN9a5dBlSD4zFNsO1kHA1cLbKDGDHf9GsmYrj6QN40d4lhhJtrRaRNrpeLfs1-tHLP_SmxcNXN2GfRcFPxcA');
+  background-size: 100%;
+  font-size: 16px;
+  color: #222;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+#login-form {
+  position: relative;
+  margin: 1% auto;
+  width: 800px;
+  height: 580px;
+  background-color: #4285f4;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.left-placement {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 500px;
+  height: 400px;
+  background-color: #4285f4;
+}
+
+h1 {
+  margin: 0px 0px 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+  
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-bottom: 2px solid #16a085;
+    margin-left: 10px;
+  color: #000000;
+  transition: 0.2s ease;
+}
+
+button[type="submit"] {
+  margin-left: 10px;
+  margin-top: 50px;
+  width: 220px;
+}
+
+#log {
+  margin-left: 10px;
+  margin-top: 30px;
+  width: 220px;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+  opacity: 1;
+  background: #4CAF50;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+.or {
+  position: absolute;
+  top: 180px;
+  left: 470px;
+  width: 60px;
+  height: 60px;
+  background-color: #4285f4;
+  color:white;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  line-height: 65px;
+  text-align: center;
+}
+
+.right-placement {
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 580px;
+  background: url('http://www.wallpaperf1.co/wp-content/uploads/2016/01/FLAT-WALLPAPER-FOR-IPHONE-WF1007.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 2px 2px 0;
+}
+
+.right-placement .loginwith {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 28px;
+  color: #000;
+  text-align: center;
+}
+
+button.social-signin {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+button.social-signin:hover,
+button.social-signin:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin.facebook {
+  background: #32508E;
+}
+
+button.social-signin.twitter {
+  background: #55ACEE;
+}
+
+button.social-signin.google {
+  background: #DD4B39;
+}
+
